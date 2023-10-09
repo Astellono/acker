@@ -2,12 +2,17 @@
     font-family: 'Playfair Display', serif;
     font-family: 'Sofia Sans Condensed', sans-serif;
 }
-
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .center {
    
     max-width: max-content;
     display: block;
-    margin: 150px auto;
+   
     /* margin: calc(50vh - 250px) auto; */
 }
 
