@@ -2,6 +2,9 @@
     font-family: 'Playfair Display', serif;
     font-family: 'Sofia Sans Condensed', sans-serif;
 }
+html {
+    overflow-y: hidden;
+}
 body {
     height: 100vh;
     display: flex;
