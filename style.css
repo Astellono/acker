@@ -6,19 +6,33 @@ html {
     overflow-y: hidden;
 }
 body {
+  position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(back.jpg);
+
+
 }
 .center {
-    margin-top: -100px;
-    max-width: max-content;
-    display: block;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 20px ;
+    line-height: 35px;
+    z-index: 100;
+    background-color: rgba(230, 156, 156, 0.863);
+    top:-500px;
+    transition:top 5s ease-in-out;
     /* margin: calc(50vh - 250px) auto; */
 }
-
+.go {
+  top:250px
+}
 h1 {
     max-width: max-content;
     margin: 0 auto;
@@ -34,4 +48,12 @@ p {
     width: 300px;
     display: block;
     margin: 0 auto;
+}
+.up {
+  position: absolute;
+  top:0
+}
+.down {
+  position: absolute;
+  bottom:0;
 }
